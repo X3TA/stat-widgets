@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    
+    
+}
+body{
+    background-color: black;
+}
+.boxes{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center;
+    flex-direction: column; */
+    /* justify-content: center; */
+}
+.box{
+    border: 3px solid ;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+}
+.box1{
+    border-color: #ea5d29;
+
+}
+.box2{
+    border-color: #f6d146;
+}
+.box3{
+    border-color: #b4e1ff;
+}
+.mainvalue{
+    font-size: 3.8rem;
+    color: white!important;
+    margin: 1rem 0;
+    text-align: right;
+    padding: 1rem 0rem 1rem 3.5rem;
+    font-weight: 300;
+}
+.topline{
+    display: flex;
+    justify-content: space-between;
+    /* border-left: 4px solid;
+    padding-left: 0.3rem;
+    */
+    
+}
+.bottomline{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box p{
+    color: #999999;
+}
+.increment p{
+    color: #30bb64 !important;
+    font-size: 1.2rem;
+}
+/* .bar{
+    width: 5px;
+  height: 35px;
+  background-color: #30bb64;
+  padding-right: 0;
+  border-radius: 30%;
+} */
+.box1:hover{
+    border-color: #ea5d29;
+    
+    background-color: #ea5d29;
+}
+.box2:hover{
+    border-color: #f6d146;
+    background-color: #f6d146;
+}
+.box3:hover{
+    border-color: #b4e1ff;
+    background-color:#b4e1ff;
+    color: black!important;
+}
+@media screen and (max-width: 600px){
+    .boxes{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   .box1{
+       margin-bottom: 0.5rem;
+       padding: 0.5rem;
+       /* padding: 1rem 2rem; */
+   }
+   .box2{
+    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
+}
+.box3{
+    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
+}
+/* .mainvalue{
+    font-size: 3.8rem;
+    color: white!important;
+    margin: 1rem 0;
+    text-align: right;
+    padding: 1rem 0rem 1rem 3.5rem;
+    font-weight: 300;
+} */
+ 
+   
+}
